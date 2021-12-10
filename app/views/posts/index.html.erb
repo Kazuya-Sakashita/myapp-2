@@ -1,0 +1,26 @@
+
+  <div class="main posts-new">
+  　<div class="container">
+   　<h1 class="form-headding">DBに投稿</h1>
+   　<%= form_tag("/posts/create") do %>
+     　Title：<textarea name="content"></textarea>
+     <div class="form-body">
+     　Content：<textarea name="content"></textarea>
+     　<div class="form-body">
+     　<input type="submit" value="投稿">
+     
+   
+  <% end %>
+<br>
+
+  
+
+<div class="main posts-index">
+  <div class="container">
+   <% @posts.each do |post| %>
+    <div class="posts-index-item">
+    <%= link_to(post.content, "/show/#{post.id}") %>
+    
+   <% end %>
+  
+  

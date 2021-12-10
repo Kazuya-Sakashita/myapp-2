@@ -1,0 +1,11 @@
+
+<%= form_tag("/login") do %>
+    <p>Email</p>
+    <input name="email" value="<%= @email %>">
+    <p>Password</p>
+    <input type="password" name="password" value"<%= @password %>">
+    <br><br><input type="submit" value="会員登録">
+    <% end %>
+  
+  <div style="background-color:red; margin-left: 100px">margin</div>
+  <div style="background-color:yellow; padding-left: 100px">padding</div>

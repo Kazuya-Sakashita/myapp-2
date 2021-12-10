@@ -1,0 +1,158 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body{
+
+    font-family: sans-serif;
+ }
+
+
+ li{
+   
+    list-style: none;
+
+ }
+
+
+.header{
+    background-color: #a9a9a9；
+    color: #000000;
+    height: 100px;
+ 
+   
+}
+
+
+.header-list li{
+    list-style: none; 
+    float: left;
+    padding: 35px 20px;
+
+}
+
+
+.header-logo{
+    color: glay;
+    font-size: 30px;
+    float: left;
+    padding: 30px 40px;
+
+}
+
+
+
+
+
+
+
+.main{
+    
+    background-color: white
+    height: 300px;
+    padding: 100px 80px;
+    
+    }
+
+.copy-container h1 {
+    font-size: 140px;
+}    
+
+.copy-container h2 {
+    font-size: 60px;
+}
+
+.copy-container span {
+    color: #ff4a4a;
+
+}
+    
+
+.contents {
+   height: 500px;
+   margin-top: 100px;
+
+   
+}
+
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+
+    padding-bottom: 15px;
+
+    margin-bottom: 50px;
+
+}
+
+.contents-item {
+    float: left;
+    margin-right: 40px;
+    
+}
+
+.contents-item p {
+font-size: 24px;
+margin-top: 30px;
+
+}
+
+.contact-form {
+
+padding-top: 100px;
+
+}
+
+input, textarea {
+ width: 400px;
+ margin-top: 10px
+ margin-bottom: 30px;
+ padding: 20px
+ font-size: 18px
+ border: 1px solid #dee7ec;
+
+}
+
+
+.contact-submit {
+ background-color: #8b0000;
+ color: #889eab;
+
+}
+
+
+.footer{
+   background-color: #008b8b;
+   color: #fff;
+   height: 120px;
+   padding: 40px; 
+}
+
+.footer-logo {
+float: left;
+font-size: 32px;
+
+}
+
+.footer-list {
+ float: right;
+}
+
+.footer-list li {
+ padding-bottom: 20px
+
+}
+
+

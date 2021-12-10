@@ -1,0 +1,12 @@
+<div class="main posts-new">
+   <%= form_tag("/posts/#{@post.id}/update") do %>
+ 
+  Title<br><textarea name="content"><%= @post.title %></textarea><br>
+  Content<br><textarea name="content"><%= @post.content %></textarea>
+  <br><input type="submit" value="保存">
+  </div>
+  </div>
+  <% end %>
+ </div> 
+</div>
+
